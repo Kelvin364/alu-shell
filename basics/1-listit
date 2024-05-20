@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s\n" "$(ls /home/kelvin/alu/alu-shell/basics)"
+printf "%s\n%s\n%s\n" "$(ls /home/kelvin/alu/alu-shell/basics)"
