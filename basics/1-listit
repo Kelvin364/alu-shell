@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s" "$(ls /home/kelvin/alu/alu-shell/basics)"
+printf "%-21s %-21s %-21s\n" "$(ls /home/kelvin/alu/alu-shell/basics)"
