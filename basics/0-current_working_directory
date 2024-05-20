@@ -1,2 +1,3 @@
 #!/bin/bash  
-echo "/tmp/correction/5471790261918403614477542288300467108707_5/2019/6312/basics"
+printf "%s\n%s\n%s\n" "$" "$(pwd)" "$" 
+
