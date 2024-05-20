@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "%s\n" "$(ls /home/kelvin/alu/alu-shell/basics)"
