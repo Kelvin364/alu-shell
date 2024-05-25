@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.git" | rev | cut -d '/' -f 1 | rev | cut -d '.' -f 1-2 | LC_ALL=C sort -f | grep -v '\.gif$'
+find . -type f -name "*.git" | rev | cut -d '/' -f 1 | rev | cut -d '.' -f 1-2 | LC_ALL=C sort -f | while read -r line; do case "$line" in *.gif) continue ;; esac; echo "$line"; done
