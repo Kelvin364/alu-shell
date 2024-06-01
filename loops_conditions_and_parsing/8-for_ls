@@ -1,6 +1,6 @@
 
 #!/usr/bin/env bash
-# a Bash script that displays:The content of the current directory In a list of format Where only the part of the name after the first diasg is displayed (refer to the example)
+#! a Bash script that displays:The content of the current directory In a list of format Where only the part of the name after the first diasg is displayed (refer to the example)
 files="$(ls)"
 for f in $files;
 do
