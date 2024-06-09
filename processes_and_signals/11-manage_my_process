@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # File to manage "manage_my_process"
 
 killer() {
@@ -21,4 +21,3 @@ elif [[ "$1" == "restart" ]]; then
 else
     echo "Usage: manage_my_process {start|stop|restart}"
 fi
-
